@@ -7,7 +7,15 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body{
+  background-image: linear-gradient(to left top, #f300ff, #8883ff, #00b0ff, #00caff, #00dbfb, #2de4ea, #5eecd5, #8af1bf, #9af7aa, #b3fb92, #d2fc78, #f5fb5f);
+}
+
 /* Navbar */
+
+.navbar{
+  background-color: #c2dfe3;
+}
 
 .navbar .navbar-nav a.nav-link.list-active {
   color: #ec4d37;
@@ -91,6 +99,17 @@
   text-align: center;
 }
 
+.card-regis-login{
+  width: 400px;
+  border: 1px solid #00000033;
+  border-radius: 16px;
+  padding: 15px 15px 25px 15px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  
+  
+}
+
 .personal .right {
   flex: 60%;
   display: flex;
@@ -106,7 +125,7 @@
 
 .personal .right div p {
   text-align: justify;
-  color: #959595;
+  color: #000000;
   margin-top: 20px;
   margin-bottom: 20px;
 }
